@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background-origin: 3px solid greenyellow;
+    overflow: auto;
+    padding: 15px;
+}
+
+h1{
+    color: greenyellow;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: greenyellow;
+    background-color: black
+}
