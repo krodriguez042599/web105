@@ -1,0 +1,133 @@
+:root{
+    --background-color: black;
+    --border-color1: lime;
+    --background-button1: #0d4210;
+    --background-button2: rgb(0, 155, 0);
+    --body-text: yellow;
+    --header-text: lime;
+}
+
+body{
+    font-family: 'Kanit';
+    background-image: url(space.jpg);
+    width: 100%;
+    color: var(--body-text);
+    box-sizing: border-box;
+    font-size: 18px;
+    
+}
+.container{
+    background: var(--background-color);
+    width: 80%;
+    max-width: 3000px;
+    margin: 10px auto;
+    border: var(--border-color1) 2px solid;
+}
+
+h1{
+    font-family: 'Trade Winds';
+    color: var(--header-text);
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Righteous';
+    color: var(--header-text);
+    font-size: 30px;
+    background-color:var(--background-color);
+    text-align: left;
+    
+}
+
+h3{
+    font-family: 'Righteous';
+    color: var(--header-text);
+    font-size: 30px;
+    background-color: var(--background-color);
+    text-align: center;
+    
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: var(--header-text);
+    background:var(--background-button1);
+    border: 2px solid var(--border-color1);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: var(--header-text);
+    background: var(--background-button2);
+    
+}
+
+nav a:visited, .button:visited{
+    background: var(--background-color);
+    border: var(--border-color1);
+}
+img{
+    padding: 4px;
+    background: var(--body-text);
+}
+#ani{
+    width: 45%;
+    height: 40%;
+    float: left;
+    margin: 15px;
+}
+
+aside{
+    clear: both;
+    float: left;
+    width: 98%;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    overflow: auto;
+    border: 4px solid var(--border-color1);
+    margin-right: 20px;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    color: var(--body-text);
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#work{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#links{
+    text-align: left;
+    margin: 15px;
+}
+
+#twitch{
+    width: 7%;
+    height: 10%;
+    margin: 10px;
+}
+
+#twitter{
+    width: 7%;
+    height: 10%;
+    margin: 10px;
+}
